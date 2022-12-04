@@ -13,6 +13,7 @@ def pallindrome():
             if x == reverse(x):
                 a.append(x)
     return(a)
+
 def largest_pallindrome():
     a = pallindrome()
     largest = a[0]

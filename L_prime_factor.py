@@ -1,4 +1,4 @@
-def prime(n):
+def primefactors(n):
     divisor = 2
     array = []
     while divisor <= n:
@@ -12,7 +12,7 @@ def prime(n):
 
 def largest_primefactor():
     n = int(input("enter the number to find largest prime_factor of:"))
-    a = prime(n)
+    a = primefactors(n)
     largest = a[0]
     for element in a:
         if element > largest:
