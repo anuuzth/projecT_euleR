@@ -36,10 +36,20 @@ def numbers():
         if product > largest:
             largest = product    
     print(largest)
-
-    # print(largest)
-
-
-
-
+    
 numbers()
+
+
+# ****replace original_num by a*******
+# num = original_num.replace('\n','')
+# large = 1
+# for i in range(0,len(num)):
+#     for j in range(i,i+13):
+#         number = num[j:j+13]
+#         if True:
+#             prod = 1
+#             for k in range(0,len(number)):
+#                 prod = prod * int(number[k])
+#             if prod > large :
+#                 large = prod
+# print(large)
